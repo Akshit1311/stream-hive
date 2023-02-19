@@ -21,7 +21,7 @@ const sessions = (req: NextApiRequest, res: NextApiResponse) => {
     .request(options)
     .then(function (response) {
       console.log(response.data);
-      return res.status(200).send(
+      return res.status(200).json(
         response.data.map(
           ({
             id,

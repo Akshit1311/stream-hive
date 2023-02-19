@@ -7,7 +7,7 @@ const Home = () => {
         <h1 className="text-6xl font-bold">
           Welcome to{" "}
           <a className="text-blue-600" href="https://nextjs.org">
-            Next.js!
+            Stream Hive!
           </a>
         </h1>
 
