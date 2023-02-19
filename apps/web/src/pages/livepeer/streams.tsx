@@ -32,7 +32,7 @@ const Streams = () => {
   }
 
   return (
-    <div className="grid grid-flow-col gap-4 p-8">
+    <div className="flex gap-4 p-8  flex-wrap">
       {streams.map(
         ({
           id,
