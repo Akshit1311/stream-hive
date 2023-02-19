@@ -1,4 +1,5 @@
 import Image from "next/image";
+import RainbowKitBtn from "../components/RainbowKitBtn";
 
 const Home = () => {
   return (
@@ -18,7 +19,7 @@ const Home = () => {
           </code>
         </p>
       </main>
-
+      <RainbowKitBtn />
       <footer className="flex h-24 w-full items-center justify-center border-t">
         <a
           className="flex items-center justify-center gap-2"
