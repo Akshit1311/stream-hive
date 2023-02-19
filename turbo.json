@@ -4,7 +4,8 @@
   "pipeline": {
     "build": {
       "dependsOn": ["^build"],
-      "outputs": ["dist/**", ".next/**"]
+      "outputs": ["dist/**", ".next/**"],
+      "env": ["NEXT_PUBLIC_STUDIO_API_KEY"]
     },
     "lint": {
       "outputs": []
